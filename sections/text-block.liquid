@@ -1,0 +1,45 @@
+{{ 'component-text-block.css' | asset_url | stylesheet_tag }}
+
+<div class="text-block-container" style="background: {{section.settings.background_color}}">
+    <div>
+        <h2 class="text-title">{{section.settings.heading}}</h2>
+        <div class="text-block-text">{{section.settings.text}}</div>
+        {% if section.settings.cta-text != blank %}
+            <a {% if section.settings.cta-url != blank %}href="{{section.settings.cta-url}}"{% endif %}class="text-cta">{{section.settings.cta-text}}</a>
+        {% endif %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Text Block",
+  "tag": "section",
+  "class": "text-block",
+  "settings": [
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Title"
+    },
+    {
+        "type": "richtext",
+        "id": "text",
+        "label": "Main Copy",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    },
+    {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text Block",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

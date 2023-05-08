@@ -1,0 +1,90 @@
+{{ 'component-homepage-project-scroll.css' | asset_url | stylesheet_tag }}
+
+<div class="project-scroll-container">
+{%- for block in section.blocks -%}
+    {% case block.type %}
+        {%- when 'slide' -%}
+            <a href="{{block.settings.project_url}}">
+                <div class='project-container' style="background: {{block.settings.background_color}}">
+                    <div class="project-image-container">
+                        <img src="{{block.settings.image  | img_url: 'master' }}">
+                    </div>
+                    <h3 class="project-title {% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.project_name}}</h3>
+                    <p class="{% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{ block.settings.description }}</p>
+                </div>
+            </a>
+    {%- endcase -%}
+{%- endfor -%}
+</div>
+
+
+{% schema %}
+{
+  "name": "Project Scroll",
+  "tag": "section",
+  "class": "project-scroll",
+  "max_blocks": 5,
+ 	"settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Projects"
+    }
+  ],
+  	"blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+            "type": "url",
+            "id": "project_url",
+            "label": "Project URL"
+         },
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+         {
+           "type": "text",
+           "id": "project_name",
+           "label": "Project Name"
+         },
+         {
+            "type": "text",
+            "id": "description",
+            "label": "Project Description"
+         },
+         {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background Color"
+         },
+         {
+            "type": "select",
+            "id": "text_color",
+            "label": "Text Colors",
+            "options": [
+                {
+                "value": "black",
+                "label": "Black"
+                },
+                {
+                "value": "white",
+                "label": "White"
+                }
+            ],
+            "default": "black"
+         }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "name": "Project Scroll",
+      "category": "collection"
+    }
+  ]
+}
+{% endschema %}

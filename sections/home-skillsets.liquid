@@ -1,0 +1,60 @@
+{{ 'component-skillsets.css' | asset_url | stylesheet_tag }}
+
+<div class="skillsets-container">
+    <div class="skillset-header">
+        <h2>Our Skillset</h2>
+        <p>Sub text maybe here</p>
+    </div>
+    <div class="skills-container">
+    {%- for block in section.blocks -%}
+        {% case block.type %}
+            {%- when 'slide' -%}
+                <div class='skill-container'>
+                    <h3 class="skill-title">{{block.settings.skill_name}}</h3>
+                    <div class="skill-description">{{ block.settings.description }}</div>
+                </div>
+        {%- endcase -%}
+    {%- endfor -%}
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Skillsets",
+  "tag": "section",
+  "class": "skillsets",
+  "max_blocks": 20,
+ 	"settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Skills"
+        }
+    ],
+  	"blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "text",
+           "id": "skill_name",
+           "label": "Skill Name"
+         },
+         {
+            "type": "richtext",
+            "id": "description",
+            "label": "Skill Description"
+         }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "name": "Skillsets",
+      "category": "collection"
+    }
+  ]
+}
+{% endschema %}

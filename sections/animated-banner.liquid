@@ -1,0 +1,64 @@
+{{ 'component-animated-banner.css' | asset_url | stylesheet_tag }}
+<div class="animated-banner-container" style="background: {{section.settings.background_color}}">
+    <div class="banner-container">
+    {%- for block in section.blocks -%}
+        {% case block.type %}
+            {%- when 'slide' -%}
+                <div class='text-container'>
+                    <h3 class="animated-title {% if section.settings.text_color == 'black' %} color-black {% elsif section.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.text_name}}</h3>
+                </div>
+        {%- endcase -%}
+    {%- endfor -%}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Animated Banner",
+  "tag": "section",
+  "class": "animated-banner",
+  "max_blocks": 10,
+ 	"settings": [
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background Color"
+        },
+        {
+            "type": "select",
+            "id": "text_color",
+            "label": "Text Colors",
+            "options": [
+                {
+                "value": "black",
+                "label": "Black"
+                },
+                {
+                "value": "white",
+                "label": "White"
+                }
+            ],
+            "default": "black"
+         }
+    ],
+  	"blocks": [
+     {
+       "name": "Animated Text",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "text",
+           "id": "text_name",
+           "label": "Text Name"
+         }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "name": "Animated Banner",
+      "category": "collection"
+    }
+  ]
+}
+{% endschema %}

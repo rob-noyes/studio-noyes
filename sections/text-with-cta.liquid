@@ -1,0 +1,50 @@
+{{ 'component-text-with-cta.css' | asset_url | stylesheet_tag }}
+
+<div class="storytelling-cta-container">
+    <div>
+        <h2 class="storytelling-title">{{section.settings.heading}}</h2>
+        <div class="storytelling-text">{{section.settings.text}}</div>
+        {% if section.settings.cta-text != blank %}
+            <a {% if section.settings.cta-url != blank %}href="{{section.settings.cta-url}}"{% endif %}class="storytelling-cta">{{section.settings.cta-text}}</a>
+        {% endif %}
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Text with CTA",
+  "tag": "section",
+  "class": "storytelling",
+  "settings": [
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Title"
+    },
+    {
+        "type": "richtext",
+        "id": "text",
+        "label": "Main Copy",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    },
+    {
+      "id": "cta-text",
+      "type": "text",
+      "label": "CTA Text"
+    },
+    {
+      "id": "cta-url",
+      "type": "url",
+      "label": "CTA url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with CTA",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
