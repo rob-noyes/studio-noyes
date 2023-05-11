@@ -2391,10 +2391,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
   background-color: rgb(var(--color-background));
 }
 
-.header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-}
-
 .header {
   display: grid;
   grid-template-areas: 'left-icons heading icons';
@@ -3272,4 +3268,21 @@ details-disclosure > details {
   vertical-align: middle;
   margin: 0;
   font-size: 42px;
+}
+
+.header.page-width {
+  max-width: unset;
+  background-color: #000;
+}
+
+.header.page-width > a > span,
+.header .header__heading a span {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header .header__inline-menu > ul > li > a > span,
+.header__icons .header__search summary,
+.header__icons .header__icon svg {
+  color: #fff;
 }

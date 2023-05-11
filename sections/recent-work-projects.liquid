@@ -1,21 +1,40 @@
 {{ 'component-recent-work.css' | asset_url | stylesheet_tag }}
-
-<div class="recent-work-container">
-{%- for block in section.blocks -%}
-    {% case block.type %}
-        {%- when 'slide' -%}
-            <a href="{{block.settings.project_url}}">
-                <div class='project-container' style="background: {{block.settings.background_color}}">
-                    <div class="project-image-container">
-                        <img src="{{block.settings.image  | img_url: 'master' }}">
-                    </div>
-                    <h3 class="project-title {% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.project_name}}</h3>
-                    <p class="{% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{ block.settings.description }}</p>
-                </div>
-            </a>
-    {%- endcase -%}
-{%- endfor -%}
+<div class="recent-work-header">
+  <div>
+    <h1 class="main-page-title page-title h0">
+      Recent Work
+    </h1>
+    <div class="rte">
+    </div>
+  </div>
+   <div class='filter-container'>
+    <div class='filters'>
+      <button class="filter" value="Footwear">Footwear</button>
+      <button class="filter" value="Social">Social</button>
+      <button class="filter" value="Clothing">Cothing</button>
+    </div>
+  </div>
 </div>
+<div class="recent-work-container">
+  {%- for block in section.blocks -%}
+      {% case block.type %}
+          {%- when 'slide' -%}
+              <a class='project-link-container' href="{{block.settings.project_url}}">
+                  <div class='project-container' style="background: {{block.settings.background_color}}">
+                      <div class="project-image-container">
+                          <img src="{{block.settings.image  | img_url: 'master' }}">
+                      </div>
+                      <h3 class="project-title {% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.project_name}}</h3>
+                      <p class="{% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{ block.settings.description }}</p>
+                  </div>
+                  <div class='project-tag' data-tag={{block.settings.project_tag}}>{{block.settings.project_tag}}</div>
+              </a>
+      {%- endcase -%}
+  {%- endfor -%}
+ 
+</div>
+
+{{ 'recent-work-filter.js' | asset_url | script_tag }}
 
 
 {% schema %}
@@ -76,6 +95,26 @@
                 }
             ],
             "default": "black"
+         },
+         {
+            "type": "select",
+            "id": "project_tag",
+            "label": "Project Tag",
+            "options": [
+                {
+                "value": "Footwear",
+                "label": "Footwear"
+                },
+                {
+                "value": "Social",
+                "label": "Social"
+                },
+                {
+                "value": "Clothing",
+                "label": "Clothing"
+                }
+            ],
+            "default": "Footwear"
          }
        ]
      }

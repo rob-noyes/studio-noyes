@@ -2,11 +2,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .recent-work-container a {
   text-decoration: none;
   width: 33.3%;
+  position: relative;
+}
+
+.recent-work-container .project-link-container.hidden {
+  display: none;
 }
 
 .project-container {
@@ -70,6 +76,61 @@ h3.project-title.color-white {
 
 .project-container p.color-white {
   color: #ffffff;
+}
+
+.project-tag {
+  position: absolute;
+  top: 5%;
+  z-index: 1;
+  color: #fff;
+  background: #000;
+  font-family: FF Din Pro;
+  font-weight: 700;
+  padding: 15px 80px 15px 25px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.recent-work-header {
+  padding: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-work-header h1 {
+  font-family: FF Din Pro;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 42px;
+}
+
+.filters .filter {
+  background: none;
+  border: 1px solid;
+  font-size: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.filters .filter.selected {
+  background: #000;
+  color: #fff;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-container .hide-show-filters {
+  font-family: 'FF DIN PRO';
+  font-size: 36px;
+  height: fit-content;
+  width: fit-content;
+  line-height: 1;
 }
 
 @media (max-width: 550px) {
