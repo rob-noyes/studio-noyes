@@ -1,10 +1,10 @@
 {{ 'component-skillsets.css' | asset_url | stylesheet_tag }}
 
 <div class="skillsets-container">
-    <div class="skillset-header">
+    {% comment %} <div class="skillset-header">
         <h2>Our Skillset</h2>
         <p>Sub text maybe here</p>
-    </div>
+    </div> {% endcomment %}
     <div class="skills-container">
     {%- for block in section.blocks -%}
         {% case block.type %}

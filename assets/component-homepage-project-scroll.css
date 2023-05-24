@@ -1,7 +1,12 @@
 .project-scroll-container {
+  position: relative;
+}
+
+.project-scroll-container .projects-scroll {
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
+  position: relative;
 }
 
 .project-scroll-container a {
@@ -17,14 +22,18 @@
   justify-content: center;
   max-height: 860px;
   height: 100%;
-  padding: 90px 30px 60px 30px;
+  padding: 90px 30px 75px 30px;
 }
 
 .project-image-container {
   max-width: 400px;
   width: 100%;
-  max-height: 400px;
+  height: 400px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
 }
 
 .project-image-container img {
@@ -70,6 +79,94 @@ h3.project-title.color-white {
 
 .project-container p.color-white {
   color: #ffffff;
+}
+
+.project-scroll-container .recent-work-cta {
+  position: absolute;
+  top: 56px;
+  left: 62px;
+  z-index: 2;
+}
+
+.project-scroll-container .recent-work-cta h2 {
+  position: sticky;
+  font-family: 'FF DIN Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 113.5%;
+  letter-spacing: 0.05em;
+  background: linear-gradient(to right, #b9bab5, #b9bab5 50%, #000000 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.3s ease-out;
+  -webkit-transition: background-position 0.3s ease-out;
+  text-decoration: none;
+  margin: 0;
+  &:hover {
+    background-position: 0 100%;
+  }
+}
+
+.project-scroll-container .recent-work-cta:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  left: 0;
+  background: #b9bab5;
+  transition: width 0.3s ease-out;
+  -webkit-transition: width 0.3s ease-out;
+}
+
+.project-scroll-container .recent-work-cta:hover:after {
+  width: 100%;
+  left: 0;
+  background: #b9bab5;
+}
+
+.scroll-arrow {
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.scroll-arrow.scroll-left, .scroll-arrow.scroll-right {
+  position: absolute;
+  top: 45%;
+}
+
+.scroll-arrow.scroll-left {
+  left: 2.5%;
+  transform: rotateY(180deg);
+}
+
+.scroll-arrow.scroll-right {
+  right: 2.5%;
+}
+
+
+.scroll-arrow.scroll-left.disabled, .scroll-arrow.scroll-right.disabled {
+  filter: invert(.5);
+  opacity: .5;
+  cursor: default;
+}
+
+.scroll-arrow img {
+  max-width: 50px;
 }
 
 @media (max-width: 550px) {

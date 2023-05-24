@@ -1,0 +1,85 @@
+.contact-page-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 88px;
+}
+
+.contact-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.contact-title h1  {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    margin-top: 38px;
+}
+
+.connect, .visit {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content-container .title, .connect .phone, .connect .email, .visit span, .contact-page-container .footer-block__heading.inline-richtext {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+.socials img {
+    width: 22px;
+    height: 22px;
+}
+
+.socials img:nth-child(2) {
+    margin: 0px 8px;
+}
+
+.form, .connect, .visit {
+    width: 33%;
+}
+
+.contact-page-container .footer-block--newsletter {
+    height: 141px;
+}
+
+.contact-page-container .newsletter-form, .contact-page-container .newsletter-form__field-wrapper {
+    max-width: unset;
+}
+
+.contact-page-container .newsletter-form__field-wrapper {
+    border-bottom: 1px solid;
+}
+
+@media (max-width: 768px) {
+    .contact-content-container {
+        flex-direction: column;
+    }
+    .contact-page-container {
+        padding: 0 20px;
+    }
+
+    .form, .connect, .visit {
+        width: 100%;
+    }
+
+    .contact-title h1 {
+        margin-bottom: 40px;
+    }
+}

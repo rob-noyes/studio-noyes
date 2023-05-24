@@ -3,7 +3,8 @@
   flex-direction: column;
   overflow-x: scroll;
   background-color: #ececec;
-  padding: 114px 87px;
+  padding: 140px 90px 72px;
+  align-items: center;
 }
 
 .skillsets-container .skillset-header h2 {
@@ -18,28 +19,44 @@
 }
 
 .skills-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 160px;
+  grid-row-gap: 120px;
 }
 
 .skill-container {
   width: 100%;
-  border-top: 1px solid #000000;
   padding-top: 20px;
   margin-right: 40px;
-  max-width: 275px;
+  max-width: 555px;
 }
 
 .skills-container .skill-title {
-  font-size: 28px;
   text-transform: uppercase;
+  font-family: 'FF DIN Pro';
+  font-style: normal;
   font-weight: 700;
+  font-size: 42px;
+  line-height: 113.5%;
+  letter-spacing: 0.05em;
   margin: 0;
+  max-width: 515px;
+}
+
+.skill-container:hover .skill-title,
+.skill-container:hover .skill-description {
+  color: #751e27;
 }
 
 .skills-container .skill-description {
+  font-family: 'FF DIN Pro';
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
+  line-height: 113.5%;
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 1023px) {

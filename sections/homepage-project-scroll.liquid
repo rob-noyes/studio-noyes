@@ -1,29 +1,76 @@
 {{ 'component-homepage-project-scroll.css' | asset_url | stylesheet_tag }}
 
 <div class="project-scroll-container">
-{%- for block in section.blocks -%}
-    {% case block.type %}
-        {%- when 'slide' -%}
-            <a href="{{block.settings.project_url}}">
-                <div class='project-container' style="background: {{block.settings.background_color}}">
-                    <div class="project-image-container">
-                        <img src="{{block.settings.image  | img_url: 'master' }}">
+  <div class='recent-work-cta'>
+    <a href='/pages/projects'><h2>Recent Work</h2></a>
+  </div>
+  <div class='projects-scroll'>
+    {%- for block in section.blocks -%}
+        {% case block.type %}
+            {%- when 'slide' -%}
+                <a href="{{block.settings.project_url}}">
+                    <div class='project-container' style="background: {{block.settings.background_color}}">
+                        <div class="project-image-container">
+                            <img src="{{block.settings.image  | img_url: 'master' }}">
+                        </div>
+                        <h3 class="project-title {% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.project_name}}</h3>
+                        {% comment %} <p class="{% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{ block.settings.description }}</p> {% endcomment %}
                     </div>
-                    <h3 class="project-title {% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.project_name}}</h3>
-                    <p class="{% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{ block.settings.description }}</p>
-                </div>
-            </a>
-    {%- endcase -%}
-{%- endfor -%}
+                </a>
+        {%- endcase -%}
+    {%- endfor -%}
+    </div>
+    <button class="scroll-arrow scroll-left disabled"><img src="{{ 'scroll-arrow.png' | asset_url }}"></button>
+    <button class="scroll-arrow scroll-right"><img src="{{ 'scroll-arrow.png' | asset_url }}"></button>
 </div>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var scrollContainer = document.querySelector('.projects-scroll');
+  var scrollAmount = window.innerWidth - (window.innerWidth * 0.1);
+
+  // Scroll to the right
+  var scrollRightBtn = document.querySelector('.scroll-right');
+  scrollRightBtn.addEventListener('click', function() {
+    scrollContainer.scroll({
+      left: scrollContainer.scrollLeft + scrollAmount,
+      behavior: 'smooth'
+    });
+  });
+
+  // Scroll to the left
+  var scrollLeftBtn = document.querySelector('.scroll-left');
+  scrollLeftBtn.addEventListener('click', function() {
+    scrollContainer.scroll({
+      left: scrollContainer.scrollLeft - scrollAmount,
+      behavior: 'smooth'
+    });
+  });
+
+  // Update arrow styles based on scroll position
+  scrollContainer.addEventListener('scroll', function() {
+    if (scrollContainer.scrollLeft === 0) {
+      scrollLeftBtn.classList.add('disabled');
+    } else {
+      scrollLeftBtn.classList.remove('disabled');
+    }
+
+    if (scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth) {
+      scrollRightBtn.classList.add('disabled');
+    } else {
+      scrollRightBtn.classList.remove('disabled');
+    }
+  });
+});
+
+</script>
 
 {% schema %}
 {
   "name": "Project Scroll",
   "tag": "section",
   "class": "project-scroll",
-  "max_blocks": 5,
+  "max_blocks": 25,
  	"settings": [
     {
       "type": "text",

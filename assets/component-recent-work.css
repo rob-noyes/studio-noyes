@@ -29,8 +29,12 @@
 .project-image-container {
   max-width: 400px;
   width: 100%;
-  max-height: 400px;
+  height: 400px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
 }
 
 .project-image-container img {
@@ -89,10 +93,11 @@ h3.project-title.color-white {
   padding: 15px 80px 15px 25px;
   text-transform: uppercase;
   font-size: 18px;
+  display: none;
 }
 
 .recent-work-header {
-  padding: 3% 5%;
+  padding: 43px 3% 29px;
   display: flex;
   justify-content: space-between;
   align-items: center;

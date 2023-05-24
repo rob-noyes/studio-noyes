@@ -351,6 +351,8 @@ html.no-js .no-js-hidden {
   .header:not(.drawer-menu).page-width {
     padding-left: 5rem;
     padding-right: 5rem;
+    display: flex;
+    justify-content: space-between;
   }
 
   .page-width--narrow {
@@ -2804,7 +2806,7 @@ details[open] > .header__submenu {
 
 @media screen and (min-width: 990px) {
   .header__inline-menu {
-    display: block;
+    display: flex;
   }
 
   .header--top-center .header__inline-menu {
@@ -2825,22 +2827,45 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  margin: 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  position: relative;
 }
 
-.header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+.header__menu-item {
+  display: inline-block;
+  background: linear-gradient(to right, #f94b4d, #f94b4d 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.2s ease;
+  -webkit-transition: background-position 0.2s ease;
+  text-decoration: none;
+  &:hover {
+    background-position: 0 100%;
+  }
 }
 
-.header__menu-item span {
-  transition: text-decoration var(--duration-short) ease;
+.header__menu-item:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  left: 0;
+  background: #f94b4d;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
 }
 
-.header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+.header__menu-item:hover:after {
+  width: 100%;
+  left: 0;
+  background: #f94b4d;
 }
 
 details[open] > .header__menu-item {
@@ -3285,4 +3310,19 @@ details-disclosure > details {
 .header__icons .header__search summary,
 .header__icons .header__icon svg {
   color: #fff;
+}
+
+
+
+#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container {
+  background: #000000 !important;
+}
+
+#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container > div {
+  padding: 145px 0 108px;
+  max-width: 710px;
+}
+
+#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container > div h2 {
+  padding-bottom: 70px;
 }

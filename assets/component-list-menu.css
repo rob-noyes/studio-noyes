@@ -13,6 +13,18 @@
   outline: none;
 }
 
+.list-menu__item {
+  font-family: 'FF DIN Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 113.5%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
 .list-menu__item--active {
   text-decoration: underline;
   text-underline-offset: 0.3rem;

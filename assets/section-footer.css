@@ -1,5 +1,6 @@
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  margin-top: 0 !important;
 }
 
 .footer:not(.color-background-1) {
@@ -7,8 +8,72 @@
 }
 
 .footer__content-top {
-  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 4%;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-socials a, .footer-socials p {
+  text-transform: uppercase;
+  font-family: 'FF DIN Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 113.5%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-socials .email-content {
+  padding: 23px 0;
+}
+
+
+.footer-socials a, .footer-socials .email-content {
+  display: inline-block;
+  background: linear-gradient(to right, #f94b4d, #f94b4d 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.2s ease;
+  -webkit-transition: background-position 0.2s ease;
+  text-decoration: none;
+  position: relative;
+  &:hover {
+    background-position: 0 100%;
+  }
+}
+
+.footer-socials a:after, .footer-socials .email-content::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
   display: block;
+  margin-top: 5px;
+  left: 0;
+  background: #f94b4d;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.footer-socials a:hover:after, .footer-socials .email-content:hover:after {
+  width: 100%;
+  left: 0;
+  background: #f94b4d;
 }
 
 @media screen and (max-width: 749px) {
@@ -122,12 +187,21 @@
 .footer-block--newsletter {
   display: flex;
   align-items: flex-end;
-  margin-top: 3rem;
   gap: 1rem;
+  max-width: 465px;
+  width: 100%;
 }
 
 .footer-block--newsletter:only-child {
   margin-top: 0;
+}
+
+.field__label {
+  left: 0 !important;
+}
+
+.field__input {
+  border-bottom: 1px solid #FFFFFF;
 }
 
 @media screen and (max-width: 749px) {
@@ -151,7 +225,14 @@
 
 @media screen and (min-width: 990px) {
   .footer-block__heading {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
   }
 }
 
@@ -176,6 +257,53 @@
 
 .newsletter-form__field-wrapper {
   max-width: 36rem;
+}
+
+.field:after, .field:hover.field:after, .field__input:focus {
+  box-shadow: none;
+}
+
+.footer-socials {
+  position: relative;
+}
+
+.footer-socials .email-copied {
+  opacity: 0%;
+  height: 0;
+}
+
+.footer-socials .email-copied.active {
+  position: absolute;
+  background: #FFF;
+  color: #000;
+  top: -10px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: fit-content;
+  border-radius: 5px;
+  opacity: 100%;
+  -webkit-transition: opacity .5s linear;
+  -moz-transition: opacity .5s linear;
+  -o-transition: opacity .5s linear;
+  transition: opacity .5s linear;
+  height: fit-content;
+}
+
+.footer-socials .email-copied.active::after {
+  transform: translateX(-50%) translateY(calc(100% - 1px)) rotateZ(180deg);
+  bottom: 0;
+  top: auto;
+  left: 50%;
+  border-bottom: 8px solid #FFF;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  z-index: 1;
+  position: absolute;
 }
 
 @media screen and (min-width: 750px) {
@@ -512,5 +640,29 @@
     .footer__content-top .grid__item {
       padding-left: 3rem;
     }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer__content-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-block__newsletter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-socials {
+    align-items: center;
+    padding-top: 45px;
+  }
+
+  .footer-socials a, .footer-socials p {
+    font-size: 20px;
   }
 }

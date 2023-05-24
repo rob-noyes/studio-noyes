@@ -25,7 +25,6 @@
                           <img src="{{block.settings.image  | img_url: 'master' }}">
                       </div>
                       <h3 class="project-title {% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{block.settings.project_name}}</h3>
-                      <p class="{% if block.settings.text_color == 'black' %} color-black {% elsif block.settings.text_color == 'white' %} color-white {% endif %}">{{ block.settings.description }}</p>
                   </div>
                   <div class='project-tag' data-tag={{block.settings.project_tag}}>{{block.settings.project_tag}}</div>
               </a>
