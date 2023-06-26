@@ -1,0 +1,39 @@
+{{ 'component-project-text-block.css' | asset_url | stylesheet_tag }}
+
+<div class='project-text-block' style="{% if section.settings.background != blank %}background: {{section.settings.background}} {% endif %}">
+    <div class="text-container">
+        {% comment %} <h2>{{ section.settings.text-block-title }}</h2> {% endcomment %}
+        {{ section.settings.text-block-text }}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Text Block",
+  "tag": "section",
+  "settings": [
+    {
+      "id": "text-block-title",
+      "type": "text",
+      "label": "Text Block Title"
+    },
+    {
+        "id": "text-block-text",
+        "type": "richtext",
+        "label": "Text Block Text",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    },
+    {
+       "type": "color",
+        "id": "background",
+        "label": "Background"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Text Block",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

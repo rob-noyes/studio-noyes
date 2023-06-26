@@ -1,0 +1,32 @@
+.image-above-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-above-text .image-container img {
+    width: 100%;
+}
+
+.image-above-text .image-copy-container {
+    padding: 110px 5%;
+}
+
+.image-above-text .image-copy-container h2, .image-above-text .image-copy-container p {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    line-height: 113.5%;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.image-above-text .image-copy-container h2 {
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.image-above-text .image-copy-container p {
+    margin: 0;
+}

@@ -107,7 +107,6 @@ h3.project-title.color-white {
   text-decoration: none;
   margin: 0;
   &:hover {
-    background-position: 0 100%;
   }
 }
 
@@ -119,7 +118,7 @@ h3.project-title.color-white {
   display: block;
   margin-top: 5px;
   left: 0;
-  background: #b9bab5;
+  background: #000000;
   transition: width 0.3s ease-out;
   -webkit-transition: width 0.3s ease-out;
 }
@@ -127,7 +126,7 @@ h3.project-title.color-white {
 .project-scroll-container .recent-work-cta:hover:after {
   width: 100%;
   left: 0;
-  background: #b9bab5;
+  background: #000000;
 }
 
 .scroll-arrow {

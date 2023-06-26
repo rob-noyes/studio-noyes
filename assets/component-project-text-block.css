@@ -1,0 +1,17 @@
+.project-text-block p {
+    margin: 0;
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+}
+
+.project-text-block .text-container {
+    padding: 20% 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

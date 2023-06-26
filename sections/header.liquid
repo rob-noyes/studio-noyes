@@ -451,10 +451,14 @@
                   preload: true
                 }}
               </div>
+             
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
           </a>
+           <div class='header-back-button'>
+            <a href='/pages/projects'>X</a>
+           </div>
       {%- if request.page_type == 'index' -%}
         </h1>
       {%- endif -%}
@@ -727,6 +731,7 @@
                   preload: true
                 }}
               </div>
+              
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
@@ -1041,6 +1046,8 @@
     }
   </script>
 {%- endif -%}
+
+{{ 'header-scroll.js' | asset_url | script_tag }}
 
 {% schema %}
 {

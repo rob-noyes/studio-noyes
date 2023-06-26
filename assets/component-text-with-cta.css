@@ -83,3 +83,18 @@
   left: 0;
   background: #f94b4d;
 }
+
+
+@media (max-width: 450px) {
+  .storytelling-cta-container > div {
+    padding: 20% 2rem;
+  }
+
+  .storytelling-cta-container .storytelling-title, .storytelling-cta-container .storytelling-cta {
+    font-size: 24px;
+  }
+
+  .storytelling-cta-container .storytelling-text {
+    font-size: 20px;
+  }
+}

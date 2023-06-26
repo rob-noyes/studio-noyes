@@ -1,0 +1,65 @@
+{{ 'component-project-intro.css' | asset_url | stylesheet_tag }}
+
+<div class='project-intro-container'>
+    <div class="project-title">
+        {% if section.settings.heading != blank %}
+        <h1>{{ section.settings.heading }}</h1>
+        {% elsif section.settings.heading-image != blank %}
+          <div class='project-title-image-container'>
+            <img src='{{ section.settings.heading-image | img_url:"master" }}'>
+          </div>
+        {% endif %}
+    </div>
+    <div class="intro-content-container">
+        <div class="intro-copy-container">
+            <div class="intro-title">{{ section.settings.intro-block-title }}</div>
+            <div class="intro-copy">{{ section.settings.intro-block-text }}</div>
+        </div>
+        <div class="intro-service-list">
+          {{ section.settings.intro-block-right-text }}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Intro",
+  "tag": "section",
+  "settings": [
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Project Title",
+      "default": "Title"
+    },
+    {
+      "id": "heading-image",
+      "type": "image_picker",
+      "label": "Project Title Image"
+    },
+    {
+      "id": "intro-block-title",
+      "type": "text",
+      "label": "Intro Block Title"
+    },
+    {
+        "id": "intro-block-text",
+        "type": "richtext",
+        "label": "Intro Text",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    },
+    {
+      "id": "intro-block-right-text",
+      "type": "richtext",
+      "label": "Intro Right Text",
+      "default": "<p>Text</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Intro",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

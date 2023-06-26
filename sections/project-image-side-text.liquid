@@ -1,0 +1,47 @@
+{{ 'component-project-image-side-text.css' | asset_url | stylesheet_tag }}
+
+<div class='image-side-text {% if section.settings.switch-side == true %} row-reverse {% endif %}'>
+    <div class="image-copy-container">
+        <h2>{{ section.settings.text-block-title }}</h2>
+        {{ section.settings.text-block-text }}
+    </div>
+    <div class="image-container">
+        <img src='{{ section.settings.image | img_url:"master" }}'>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Image Side Text",
+  "tag": "section",
+  "settings": [
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "Image"
+    },
+    {
+      "id": "text-block-title",
+      "type": "text",
+      "label": "Text Block Title"
+    },
+    {
+        "id": "text-block-text",
+        "type": "richtext",
+        "label": "Text Block Text",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    },
+    {
+        "id": "switch-side",
+        "type": "checkbox",
+        "label": "Swap Sides"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Image Side Text",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

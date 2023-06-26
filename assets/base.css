@@ -2548,7 +2548,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 /* Header icons */
 .header__icons {
-  display: flex;
+  display: none;
   grid-area: icons;
   justify-self: end;
 }
@@ -2567,7 +2567,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon {
-  color: rgb(var(--color-foreground));
+  color: #fff;
 }
 
 .header__icon span {
@@ -2993,7 +2993,6 @@ details-disclosure > details {
 
 .gradient {
   background: rgb(var(--color-background));
-  background: var(--gradient-background);
   background-attachment: fixed;
 }
 
@@ -3312,8 +3311,6 @@ details-disclosure > details {
   color: #fff;
 }
 
-
-
 #shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container {
   background: #000000 !important;
 }
@@ -3326,3 +3323,67 @@ details-disclosure > details {
 #shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container > div h2 {
   padding-bottom: 70px;
 }
+
+@media (min-width: 1024px) {
+
+  sticky-header.gradient {
+    background: #000;
+  }
+
+  .header-wrapper.scrolled {
+    position: sticky;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    background-color: transparent;
+  }
+  
+  .header-wrapper.scrolled header {
+    background-color: transparent;
+  }
+  
+
+  .header-wrapper.scrolled .header__inline-menu {
+    display: none;
+  }
+
+  .header-wrapper .header-back-button {
+    display: none;
+  }
+
+  .header-wrapper.scrolled .header-back-button{
+    display: block;
+  }
+
+  .header-wrapper.scrolled .header-back-button a {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 113.5%;
+    /* or 45px */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .header-wrapper.scrolled .header__heading-logo-wrapper::before {
+    content: url('https://cdn.shopify.com/s/files/1/0750/4062/0832/files/studio-noyes-circle-logo.png?v=1686082039');
+  }
+
+  .header-wrapper.scrolled .header__heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-wrapper.scrolled .header__heading-logo-wrapper img, .header-wrapper.scrolled .header__inline-menu .list-menu, .header-wrapper.scrolled .header__inline-menu .header__icons  {
+    display: none;
+  }
+}
+
+
+

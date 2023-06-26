@@ -1,0 +1,43 @@
+{{ 'component-project-thanks.css' | asset_url | stylesheet_tag }}
+
+<div class='project-thanks-block' style="{% if section.settings.background != blank %}background: {{section.settings.background}} {% endif %}">
+    <div class="text-container">
+        <p class='thanks'>Thank You To:</p>
+        {% comment %} <h2>{{ section.settings.text-block-title }}</h2> {% endcomment %}
+        {{ section.settings.text-block-text }}
+    </div>
+    <div>
+        <img class='studio-noyes-circle' src='https://cdn.shopify.com/s/files/1/0750/4062/0832/files/big_n_logo.png'>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Thanks",
+  "tag": "section",
+  "settings": [
+    {
+      "id": "text-block-title",
+      "type": "text",
+      "label": "Text Block Title"
+    },
+    {
+        "id": "text-block-text",
+        "type": "richtext",
+        "label": "Text Block Text",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    },
+    {
+       "type": "color",
+        "id": "background",
+        "label": "Background"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Thanks",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}

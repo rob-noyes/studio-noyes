@@ -146,6 +146,18 @@ h3.project-title.color-white {
     height: 100%;
     padding: 130px 30px 60px 30px;
   }
+
+  .recent-work-container a {
+    width: 100%;
+  }
+
+  .recent-work-header {
+    flex-direction: column;
+  }
+
+  .filter-container {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 1500px) {

@@ -1,0 +1,49 @@
+.project-thanks-block {
+    margin: 0;
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 10% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.project-thanks-block .thanks {
+    padding-bottom: 20px;
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.studio-noyes-circle {
+    display: inline-block;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@media (max-width: 1023px) {
+    .project-thanks-block {
+        flex-direction: column;
+    }
+}

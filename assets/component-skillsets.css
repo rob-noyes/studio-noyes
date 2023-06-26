@@ -70,7 +70,17 @@
 }
 
 @media (max-width: 767px) {
+
+  .skills-container {
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 30px;
+  }
+
   .skillsets-container {
-    padding: 20px;
+    padding: 15% 20px;
+  }
+
+  .skills-container .skill-title {
+    font-size: 30px;
   }
 }

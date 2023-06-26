@@ -68,4 +68,8 @@
   .banner-container .text-container {
     width: 40%;
   }
+
+  .animated-banner-container {
+    height: 42px;
+  }
 }

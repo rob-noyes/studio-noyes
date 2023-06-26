@@ -45,3 +45,18 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+
+@media (max-width: 767px) {
+  .text-block-container>div {
+    padding: 15% 20px;
+  }
+
+  .text-block-container .text-title {
+    font-size: 24px;
+  }
+
+  .text-block-container .text-block-text {
+    font-size: 20px;
+  }
+}

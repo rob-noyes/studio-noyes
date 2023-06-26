@@ -1,0 +1,85 @@
+.project-intro-container {
+    padding:  40px 5% 40%;
+}
+
+.back-button-container .back-button {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #EFEFEF;
+    border: none;
+    background: transparent;
+    padding: 5px;
+    padding-left: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.project-title-image-container {
+    max-width: 250px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.project-title-image-container img {
+    width: 100%;
+}
+
+.intro-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.intro-copy-container {
+    max-width: 798px;
+}
+
+.intro-copy-container .intro-title {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.intro-copy-container .intro-copy {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 113.5%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.intro-service-list {
+    margin-left: 90px;
+    width: 40%;
+    margin-top: 42px;
+    max-width: 400px;
+}
+
+.intro-service-list ul {
+    font-family: 'FF DIN Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    list-style-type: none;
+}
+
+@media (max-width: 767px) {
+    .intro-content-container {
+        flex-direction: column;
+    }
+}

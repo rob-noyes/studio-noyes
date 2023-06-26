@@ -1,0 +1,42 @@
+{{ 'component-project-image-above-text.css' | asset_url | stylesheet_tag }}
+
+<div class='image-above-text'>
+    <div class="image-container">
+        <img src='{{ section.settings.image | img_url:"master" }}'>
+    </div>
+    <div class="image-copy-container">
+        <h2>{{ section.settings.text-block-title }}</h2>
+        {{ section.settings.text-block-text }}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Project Image Above Text",
+  "tag": "section",
+  "settings": [
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "Image"
+    },
+    {
+      "id": "text-block-title",
+      "type": "text",
+      "label": "Text Block Title"
+    },
+    {
+        "id": "text-block-text",
+        "type": "richtext",
+        "label": "Text Block Text",
+        "default": "<p>Text Text Text Text Text Text</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Project Image Above Text",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
