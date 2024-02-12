@@ -1,0 +1,25 @@
+<div class="video-wrapper">
+  <video autoplay muted loop playsinline preload="metadata">
+	  <source src="{{section.settings.video_src}}" type="video/mp4">
+  </video>
+</div>
+
+{% schema %}
+{
+  "name": "Video Looped",
+  "tag": "section",
+  "settings": [
+    {
+        "type": "text",
+        "id": "video_src",
+        "label": "Video Source"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Looped",
+      "category": "collection"
+    }
+  ]
+}
+{% endschema %}

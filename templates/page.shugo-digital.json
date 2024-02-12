@@ -1,0 +1,158 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "de7e62e3-df6a-4a5c-a68e-a075a5d29e1c": {
+      "type": "project-intro",
+      "settings": {
+        "heading": "",
+        "heading-image": "shopify:\/\/shop_images\/Asset_3.png",
+        "intro-block-title": "Intro Block",
+        "intro-block-text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum<\/p>",
+        "intro-block-right-text": "<ul><li>Service 1<\/li><li>Service 2<\/li><li>Service 3<\/li><li>Service 4<\/li><\/ul>"
+      }
+    },
+    "9f089cf8-3bd8-4927-9914-0845999e7442": {
+      "type": "project-image-above-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Studio_Noyes_Shugo_LowRes_2_1.png",
+        "text-block-title": "Text Block 1",
+        "text-block-text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum <\/p>"
+      }
+    },
+    "5600d951-9f84-406d-9405-938272927e4c": {
+      "type": "project-image-side-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Studio_Noyes_Shugo_LowRes_4_1.png",
+        "text-block-title": "Text Block 2",
+        "text-block-text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum<\/p>",
+        "switch-side": false
+      }
+    },
+    "a8854edd-94fe-44b5-ac7b-35b34bed0ac4": {
+      "type": "project-image-side-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Studio_Noyes_Shugo_LowRes_0_1.png",
+        "text-block-title": "Text Block 3",
+        "text-block-text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum<\/p>",
+        "switch-side": true
+      }
+    },
+    "12a68ef9-04a1-4866-81e6-3c46cf2c673b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo_Block.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "64c7ae74-beb8-4be0-a9ed-72b3aa06c94f": {
+      "type": "animated-banner",
+      "blocks": {
+        "6928045e-c1d6-44a7-9d79-718d10b09250": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "59ff3b78-15bd-42c0-bae3-120cbcef92f8": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "3a850fee-76f8-48f1-8c64-7fc215219394": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "4fc65d09-91d3-4e5b-9dee-f60ca619bd1d": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "9fb6b5db-0405-443b-94da-c5ac6c46befb": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "ff78666f-706a-420a-999f-2800f93b4af1": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "344cd442-4d47-4bfc-a12b-b3d4b49bc466": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        },
+        "328aa6ce-ac6d-41a3-8f7e-dca4b5736af6": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Cool Text here"
+          }
+        }
+      },
+      "block_order": [
+        "6928045e-c1d6-44a7-9d79-718d10b09250",
+        "59ff3b78-15bd-42c0-bae3-120cbcef92f8",
+        "3a850fee-76f8-48f1-8c64-7fc215219394",
+        "4fc65d09-91d3-4e5b-9dee-f60ca619bd1d",
+        "9fb6b5db-0405-443b-94da-c5ac6c46befb",
+        "ff78666f-706a-420a-999f-2800f93b4af1",
+        "344cd442-4d47-4bfc-a12b-b3d4b49bc466",
+        "328aa6ce-ac6d-41a3-8f7e-dca4b5736af6"
+      ],
+      "settings": {
+        "background_color": "#f94b4d",
+        "text_color": "white"
+      }
+    },
+    "c87f1cd3-4e09-4366-a7db-e303e16116fe": {
+      "type": "project-text-block",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ip<\/p>",
+        "background": "#ffffff"
+      }
+    },
+    "fd078c50-ad2e-448f-8f1f-ef48c96a4594": {
+      "type": "project-thanks",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p><strong>Studio Noyes Team | <\/strong>name, name, name<\/p><p><strong>xx Team | <\/strong>name, name, name<\/p><p><strong>xx Team | <\/strong>name, name, name<\/p>",
+        "background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "de7e62e3-df6a-4a5c-a68e-a075a5d29e1c",
+    "9f089cf8-3bd8-4927-9914-0845999e7442",
+    "5600d951-9f84-406d-9405-938272927e4c",
+    "a8854edd-94fe-44b5-ac7b-35b34bed0ac4",
+    "12a68ef9-04a1-4866-81e6-3c46cf2c673b",
+    "64c7ae74-beb8-4be0-a9ed-72b3aa06c94f",
+    "c87f1cd3-4e09-4366-a7db-e303e16116fe",
+    "fd078c50-ad2e-448f-8f1f-ef48c96a4594"
+  ]
+}

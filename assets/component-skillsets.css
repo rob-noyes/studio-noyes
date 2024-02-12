@@ -2,20 +2,21 @@
   display: flex;
   flex-direction: column;
   overflow-x: scroll;
-  background-color: #ececec;
+  background-color: #8BCBC5;
   padding: 140px 90px 72px;
   align-items: center;
+  color: #FFF;
 }
 
 .skillsets-container .skillset-header h2 {
-  font-size: 42px;
+  font-size: 32px;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 0;
 }
 
 .skillsets-container .skillset-header {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .skills-container {
@@ -23,7 +24,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 160px;
-  grid-row-gap: 120px;
+  grid-row-gap: 80px;
+  margin-top: 20px;
 }
 
 .skill-container {
@@ -38,23 +40,24 @@
   font-family: 'FF DIN Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 32px;
   line-height: 113.5%;
   letter-spacing: 0.05em;
   margin: 0;
   max-width: 515px;
+  color: #FFF;
 }
 
 .skill-container:hover .skill-title,
 .skill-container:hover .skill-description {
-  color: #751e27;
+  color: #121212;
 }
 
 .skills-container .skill-description {
   font-family: 'FF DIN Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 113.5%;
   letter-spacing: 0.05em;
 }
@@ -73,7 +76,7 @@
 
   .skills-container {
     grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 20px;
   }
 
   .skillsets-container {
@@ -81,6 +84,6 @@
   }
 
   .skills-container .skill-title {
-    font-size: 30px;
+    font-size: 32px;
   }
 }

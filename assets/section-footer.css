@@ -26,7 +26,7 @@
   font-family: 'FF DIN Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 113.5%;
   text-align: right;
   letter-spacing: 0.05em;
@@ -228,7 +228,7 @@
     font-family: 'FF DIN Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 113.5%;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -663,6 +663,6 @@
   }
 
   .footer-socials a, .footer-socials p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

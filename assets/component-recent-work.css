@@ -9,6 +9,7 @@
   text-decoration: none;
   width: 33.3%;
   position: relative;
+  border: 4px solid #FFF;
 }
 
 .recent-work-container .project-link-container.hidden {
@@ -33,7 +34,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   padding-bottom: 40px;
 }
 
@@ -138,6 +139,12 @@ h3.project-title.color-white {
   line-height: 1;
 }
 
+@media (max-width: 1000px) {
+  .recent-work-container a {
+    width: 50%;
+  }
+}
+
 @media (max-width: 550px) {
   .project-container {
     min-width: 300px;
@@ -159,6 +166,7 @@ h3.project-title.color-white {
     margin-top: 20px;
   }
 }
+
 
 @media (min-width: 1500px) {
   .recent-work-container {

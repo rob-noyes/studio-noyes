@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "de7e62e3-df6a-4a5c-a68e-a075a5d29e1c": {
+      "type": "project-intro",
+      "settings": {
+        "heading": "",
+        "heading-image": "shopify:\/\/shop_images\/Asset_3.png",
+        "intro-block-title": "SHUGO Brand Identity",
+        "intro-block-text": "<p>THE CHALLENGE<\/p><p>Help renowned MLB Pitcher, Marcus Stroman, turn his on-field passion project SHUGO, into an all-encompassing brand with a consistent and considered identity. <\/p><p>THE BACKSTORY<\/p><p>SHUGO was initially forged as a passion project for MLB star, Marcus Stroman in 2015. Stroman, a creative at heart who wasn’t satisfied with the performance or construction of conventional baseball cleats, set out to break boundaries when he tore his ACL during spring training in 2015. SHUGO started as a brand established to reinvent how baseball players execute their best game, and has evolved into an all-encompassing luxury brand. <\/p><p>HOW WE HELPED <\/p><p>In our pursuit to establish SHUGO as a brand that exists to mesh athleticism and premium fashion, through the lens of Stroman’s inimitable perspective—we introduced an identity that reflects mindfulness, balance, and the visual embodiment of strength within softness. <\/p><p>SHUGO ’s brand identity stands tall as a storyteller, fearlessly championing originality in a world that needs more authenticity. It's a movement that believes baseball players, athletes, and allkind deserve nothing less than meticulous precision and uncompromising attention to detail—carried out through carefully considered logo treatments, fonts, and colors. <\/p>",
+        "intro-block-right-text": "<ul><li><h2>SERVICES<\/h2><\/li><li>Creative Direction<\/li><li>Logo Design<\/li><li>Brand Guidelines<\/li><li>Voice & Copy Tone<\/li><li>Social Media Strategy<\/li><li>Website Design & Dev<\/li><\/ul>"
+      }
+    },
+    "9d6609a2-493b-4f7a-aae0-e391267cbaef": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Branding_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "c87f1cd3-4e09-4366-a7db-e303e16116fe": {
+      "type": "project-text-block",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p>SHUGO’s brand identity weaves stories into every detail—including the brand’s signature circular logo mark. The continuum of the logo mark reflects visual balance and symmetry, the number “0” which is Marcus’s number on the field, and the visual representation of what the pitcher’s mound becomes from the view above. <\/p>",
+        "background": "#ffffff"
+      }
+    },
+    "12a68ef9-04a1-4866-81e6-3c46cf2c673b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Branding_WIP_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "18e1483b-6072-4a1f-913e-65baf6ba0a9d": {
+      "type": "video-looped",
+      "settings": {
+        "video_src": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ca2f2e6dcf774a3ca146cb25be59ee70.mp4"
+      }
+    },
+    "878cc989-6283-4a23-92c0-2ae85a6d0bd2": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Instagram_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "0730fcd3-dbe6-4462-9305-f1eab338811c": {
+      "type": "video-looped",
+      "settings": {
+        "video_src": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f503702106d429c884ed2cf10b54ff9.mp4"
+      }
+    },
+    "6aa745e2-9384-4f7c-b57b-9113c1f8c013": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shugo_Website_Full_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "fd078c50-ad2e-448f-8f1f-ef48c96a4594": {
+      "type": "project-thanks",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p><strong>Whelan Co | <\/strong>Project Management<\/p><p><strong>Jeff Proctor |<\/strong> Brand Design<\/p><p><strong>Brittany Barker |<\/strong> Social Media <\/p><p><strong>Scott Schilling |<\/strong> Shopify Dev<\/p><p><strong>Robby Noyes |<\/strong> Shopify Dev<\/p><p><strong>April Black |<\/strong> Social Media Graphics<\/p>",
+        "background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "de7e62e3-df6a-4a5c-a68e-a075a5d29e1c",
+    "9d6609a2-493b-4f7a-aae0-e391267cbaef",
+    "c87f1cd3-4e09-4366-a7db-e303e16116fe",
+    "12a68ef9-04a1-4866-81e6-3c46cf2c673b",
+    "18e1483b-6072-4a1f-913e-65baf6ba0a9d",
+    "878cc989-6283-4a23-92c0-2ae85a6d0bd2",
+    "0730fcd3-dbe6-4462-9305-f1eab338811c",
+    "6aa745e2-9384-4f7c-b57b-9113c1f8c013",
+    "fd078c50-ad2e-448f-8f1f-ef48c96a4594"
+  ]
+}

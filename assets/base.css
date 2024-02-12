@@ -3311,21 +3311,26 @@ details-disclosure > details {
   color: #fff;
 }
 
-#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container {
+#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07
+  .storytelling-cta-container {
   background: #000000 !important;
 }
 
-#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container > div {
+#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07
+  .storytelling-cta-container
+  > div {
   padding: 145px 0 108px;
   max-width: 710px;
 }
 
-#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07 .storytelling-cta-container > div h2 {
+#shopify-section-template--18967703912736__a00f8e4b-24f4-47c7-87e6-7836086a8d07
+  .storytelling-cta-container
+  > div
+  h2 {
   padding-bottom: 70px;
 }
 
 @media (min-width: 1024px) {
-
   sticky-header.gradient {
     background: #000;
   }
@@ -3333,14 +3338,13 @@ details-disclosure > details {
   .header-wrapper.scrolled {
     position: sticky;
     width: 100%;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background-color: transparent;
   }
-  
+
   .header-wrapper.scrolled header {
     background-color: transparent;
   }
-  
 
   .header-wrapper.scrolled .header__inline-menu {
     display: none;
@@ -3350,7 +3354,7 @@ details-disclosure > details {
     display: none;
   }
 
-  .header-wrapper.scrolled .header-back-button{
+  .header-wrapper.scrolled .header-back-button {
     display: block;
   }
 
@@ -3368,7 +3372,7 @@ details-disclosure > details {
     color: #000000;
     text-decoration: none;
   }
-  
+
   .header-wrapper.scrolled .header__heading-logo-wrapper::before {
     content: url('https://cdn.shopify.com/s/files/1/0750/4062/0832/files/studio-noyes-circle-logo.png?v=1686082039');
   }
@@ -3379,11 +3383,27 @@ details-disclosure > details {
     justify-content: space-between;
     align-items: center;
   }
-  
-  .header-wrapper.scrolled .header__heading-logo-wrapper img, .header-wrapper.scrolled .header__inline-menu .list-menu, .header-wrapper.scrolled .header__inline-menu .header__icons  {
+
+  .header-wrapper.scrolled .header__heading-logo-wrapper img,
+  .header-wrapper.scrolled .header__inline-menu .list-menu,
+  .header-wrapper.scrolled .header__inline-menu .header__icons {
     display: none;
   }
 }
 
+@media (max-width: 1023px) {
+  .header-back-button {
+    display: none;
+  }
+}
 
+.video-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 
+.video-wrapper video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

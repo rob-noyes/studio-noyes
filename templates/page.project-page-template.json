@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "027ec6dd-da8f-4a82-88ec-38d4bf6fc78e": {
+      "type": "animated-banner",
+      "blocks": {
+        "5b44ed9f-f578-4f5b-be95-b6b34b667b58": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "d8502842-85d0-4dc1-9f35-02b76a7c793e": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "64822856-f11b-4ec8-a837-716325468bf6": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "b97b59a5-9330-418b-baee-0653e6bc3e32": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "b9e09ff2-3e86-4989-80b3-7bac54248c2b": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "8dac7475-87f3-403e-9923-f3fbf0fcd66a": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "0000a913-1f1e-4e91-9235-84effdbb6bd3": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        },
+        "c1ef8423-eac0-44da-9a2e-ac1526f4112f": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Scrolling Text"
+          }
+        }
+      },
+      "block_order": [
+        "5b44ed9f-f578-4f5b-be95-b6b34b667b58",
+        "d8502842-85d0-4dc1-9f35-02b76a7c793e",
+        "64822856-f11b-4ec8-a837-716325468bf6",
+        "b97b59a5-9330-418b-baee-0653e6bc3e32",
+        "b9e09ff2-3e86-4989-80b3-7bac54248c2b",
+        "8dac7475-87f3-403e-9923-f3fbf0fcd66a",
+        "0000a913-1f1e-4e91-9235-84effdbb6bd3",
+        "c1ef8423-eac0-44da-9a2e-ac1526f4112f"
+      ],
+      "settings": {
+        "background_color": "#f94b4d",
+        "text_color": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "027ec6dd-da8f-4a82-88ec-38d4bf6fc78e"
+  ]
+}

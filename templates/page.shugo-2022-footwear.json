@@ -1,0 +1,292 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "de7e62e3-df6a-4a5c-a68e-a075a5d29e1c": {
+      "type": "project-intro",
+      "settings": {
+        "heading": "",
+        "heading-image": "shopify:\/\/shop_images\/Asset_3.png",
+        "intro-block-title": "Shugo Zero",
+        "intro-block-text": "<h2>THE CHALLENGE<\/h2><p>Help renowned MLB Pitcher, Marcus Stroman, make baseball cleats cool, highly functional & elevated in a way that’s never been done in the sport’s history.  <\/p><h2>THE BACKSTORY<\/h2><p>SHUGO was initially forged as a passion project for MLB star, Marcus Stroman in 2015. Stroman, a creative at heart who wasn’t satisfied with the performance or construction of conventional baseball cleats, broke boundaries when he set out to play his sport in footwear designed to reflect his unique perspective.<\/p><h2>HOW WE HELPED <\/h2><p>Stroman initially reached out to us to support him in designing and producing footwear, in addition to establishing brand identity for SHUGO. When SHUGO took its first stride toward production, we knew it was more than just another baseball brand. With the fiery determination of Marcus Stroman and our team’s vast history of establishing new standards in footwear, SHUGO is disrupting the game with its distinctive and unique approach to functional, fashion-forward designs—crafted to amplify endurance and performance on and off the field.<\/p>",
+        "intro-block-right-text": "<ul><li><h2>SERVICES<\/h2><\/li><li>Creative Direction<\/li><li>Footwear Design<\/li><li>CMF<\/li><li>Footwear Development<\/li><li>Project Management<\/li><\/ul>"
+      }
+    },
+    "fb761748-5b8d-4d1d-83ff-5ad27e60f72c": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo_Block_18773705-9827-4678-85e7-64ddf9c8dd8a.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f9e75828-29be-453f-a8f0-932fe5c28e76": {
+      "type": "project-text-block",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p>SHUGO’s ORIGINS Collection dropped publicly in November of 2022. The ZERO Cleat and ZERO TR serve as the cornerstone of the collection, featuring limited-run colorways inspired by Stroman’s most-celebrated moments and milestones in life. <\/p>",
+        "background": "#ffffff"
+      }
+    },
+    "12a68ef9-04a1-4866-81e6-3c46cf2c673b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Studio_Noyes_Shugo_LowRes_0_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ae11295a-2157-4ad3-8791-56120e9985b6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Photo_Block_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "07a77f69-6ddb-49fa-9b2a-fb7c7e0c8669": {
+      "type": "video-looped",
+      "settings": {
+        "video_src": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b0345e1d37174f39b0a82b50109a1e22.mp4"
+      }
+    },
+    "c87f1cd3-4e09-4366-a7db-e303e16116fe": {
+      "type": "project-text-block",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p>For the 2023 World Baseball Classic, Marcus Stroman wanted to champion his heritage in front of an audience of millions. Representing team Puerto Rico in a celebration of his roots, Marcus would step onto the field in a custom spike that would set him apart from a sea of clichéd red, white, and blue designs. In honor of Marcus’ beloved Mother, we delved into the colorful palette of old San Juan architecture, iconic pastel-painted buildings, and the vibrant spirit of Puerto Rico. Our team utilized the already developed ZERO tooling to bring Stroman’s vision to life. <\/p>",
+        "background": "#ffffff"
+      }
+    },
+    "a5d0f1df-a3d3-4316-9fbc-876d5954a374": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19416341840160__a5d0f1df-a3d3-4316-9fbc-876d5954a374-16866780354f4ae73b-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "e5e2bf29-80de-4d26-a5b3-282ec28c448f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "3d34bbd3-b61a-4aa7-ac7f-8f052894f2e9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_3.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "954f26ff-7197-433c-b29b-2b3633f787cf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_4.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a153448b-7b26-415b-8af4-8684c81f523b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_5.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19416341840160__a5d0f1df-a3d3-4316-9fbc-876d5954a374-16866780354f4ae73b-0",
+        "e5e2bf29-80de-4d26-a5b3-282ec28c448f",
+        "3d34bbd3-b61a-4aa7-ac7f-8f052894f2e9",
+        "954f26ff-7197-433c-b29b-2b3633f787cf",
+        "a153448b-7b26-415b-8af4-8684c81f523b"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "64c7ae74-beb8-4be0-a9ed-72b3aa06c94f": {
+      "type": "animated-banner",
+      "blocks": {
+        "6928045e-c1d6-44a7-9d79-718d10b09250": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "59ff3b78-15bd-42c0-bae3-120cbcef92f8": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "3a850fee-76f8-48f1-8c64-7fc215219394": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "4fc65d09-91d3-4e5b-9dee-f60ca619bd1d": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "9fb6b5db-0405-443b-94da-c5ac6c46befb": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "ff78666f-706a-420a-999f-2800f93b4af1": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "344cd442-4d47-4bfc-a12b-b3d4b49bc466": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        },
+        "328aa6ce-ac6d-41a3-8f7e-dca4b5736af6": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Mind And body Elite"
+          }
+        }
+      },
+      "block_order": [
+        "6928045e-c1d6-44a7-9d79-718d10b09250",
+        "59ff3b78-15bd-42c0-bae3-120cbcef92f8",
+        "3a850fee-76f8-48f1-8c64-7fc215219394",
+        "4fc65d09-91d3-4e5b-9dee-f60ca619bd1d",
+        "9fb6b5db-0405-443b-94da-c5ac6c46befb",
+        "ff78666f-706a-420a-999f-2800f93b4af1",
+        "344cd442-4d47-4bfc-a12b-b3d4b49bc466",
+        "328aa6ce-ac6d-41a3-8f7e-dca4b5736af6"
+      ],
+      "settings": {
+        "background_color": "#f94b4d",
+        "text_color": "white"
+      }
+    },
+    "fd078c50-ad2e-448f-8f1f-ef48c96a4594": {
+      "type": "project-thanks",
+      "settings": {
+        "text-block-title": "",
+        "text-block-text": "<p><strong>Whelan Co <\/strong>| Project Management<\/p><p><strong>Thomas Teal Studio<\/strong> | Photography<\/p><p><strong>Justus Friesen<\/strong> | Graphics<br\/><\/p>",
+        "background": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "de7e62e3-df6a-4a5c-a68e-a075a5d29e1c",
+    "fb761748-5b8d-4d1d-83ff-5ad27e60f72c",
+    "f9e75828-29be-453f-a8f0-932fe5c28e76",
+    "12a68ef9-04a1-4866-81e6-3c46cf2c673b",
+    "ae11295a-2157-4ad3-8791-56120e9985b6",
+    "07a77f69-6ddb-49fa-9b2a-fb7c7e0c8669",
+    "c87f1cd3-4e09-4366-a7db-e303e16116fe",
+    "a5d0f1df-a3d3-4316-9fbc-876d5954a374",
+    "64c7ae74-beb8-4be0-a9ed-72b3aa06c94f",
+    "fd078c50-ad2e-448f-8f1f-ef48c96a4594"
+  ]
+}

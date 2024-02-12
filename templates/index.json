@@ -2,73 +2,490 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/studio-noyes-homepage.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "1271f2fd-2aad-4d38-ad99-39cb31c666ae": {
+      "type": "animated-banner",
+      "blocks": {
+        "84509aa0-7241-4a9c-b655-5a4f73a57228": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "5911f77a-62ff-4cb8-9ef2-6e2e9d425580": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "4f74f12e-eddd-4a05-99f0-f61a3474e28e": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "11da8141-1d99-4c19-a1cf-2cc63c97aafa": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "347ec265-3fba-4703-892b-779727ab05ea": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "55d33b0a-cf02-4a0f-aa7a-09582c3c4aec": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "079f98a4-c29c-4e6e-bf4f-d234315a1e34": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "03fe0cab-228e-4f12-a935-430fe54494b3": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "1a5aa062-26bf-4694-bafb-cc6d529bbbe0": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        },
+        "b54799a2-7143-48e2-a649-03df2745b13b": {
+          "type": "slide",
+          "settings": {
+            "text_name": "Studio Noyes"
+          }
+        }
+      },
+      "block_order": [
+        "84509aa0-7241-4a9c-b655-5a4f73a57228",
+        "5911f77a-62ff-4cb8-9ef2-6e2e9d425580",
+        "4f74f12e-eddd-4a05-99f0-f61a3474e28e",
+        "11da8141-1d99-4c19-a1cf-2cc63c97aafa",
+        "347ec265-3fba-4703-892b-779727ab05ea",
+        "55d33b0a-cf02-4a0f-aa7a-09582c3c4aec",
+        "079f98a4-c29c-4e6e-bf4f-d234315a1e34",
+        "03fe0cab-228e-4f12-a935-430fe54494b3",
+        "1a5aa062-26bf-4694-bafb-cc6d529bbbe0",
+        "b54799a2-7143-48e2-a649-03df2745b13b"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "background_color": "#f94b4d",
+        "text_color": "white"
+      }
+    },
+    "39ff757d-d501-44d4-b383-b3893efb06b5": {
+      "type": "text-with-cta",
+      "settings": {
+        "heading": "First And Foremost, We Give a Shit",
+        "text": "<p>Curiosity drives our fresh approach and culture at Studio Noyes. Every new challenge that lands on our table is our catalyst to explore, collaborate, and have fun while elevating your vision to new heights. From brand ideation, to packaging and final product, we leave no detail unchecked to create a flawless reflection of your idea that speaks volumes and leaves a lasting impression. <\/p>",
+        "cta-text": "Disrupt With Us",
+        "cta-url": "shopify:\/\/pages\/contact",
+        "background_color": "#121212"
+      }
+    },
+    "1741709e-73d8-4a34-80d9-d46589f61842": {
+      "type": "homepage-project-scroll",
+      "blocks": {
+        "4fd2f7c5-55b3-4b42-9fb5-cc7e710a9e07": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-2022-footwear",
+            "image": "shopify:\/\/shop_images\/Shugo_2022_1.png",
+            "project_name": "Shugo Zero",
+            "description": "Shugo Zero",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "6472ba35-6197-4e56-8cd2-12890662b5fd": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-apparel",
+            "image": "shopify:\/\/shop_images\/Shugo_Apparel_1.png",
+            "project_name": "shugo Apparel",
+            "description": "Shugo Apparel",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "9ca71205-2f80-4640-8f37-00677d356dbe": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-branding",
+            "image": "shopify:\/\/shop_images\/Shugo_Branding_1_6c3a9991-7eab-41cd-9d7d-eaae7291dbf2.png",
+            "project_name": "Shugo Brand Identity",
+            "description": "Shugo Brand Identity",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "6cddf49c-3aea-4a02-87bb-bc42a3ca5d1d": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-digital",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Shugo_Website1_2.png",
+            "project_name": "shugo digital",
+            "description": "I am a description that ends up being 2 lines long! Isn't that crazy.",
+            "background_color": "#d4efec",
+            "text_color": "black"
+          }
+        },
+        "7225878a-8405-4f94-8439-c081a76dbb2b": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/mise-footwear",
+            "image": "shopify:\/\/shop_images\/Mise_Product_1.png",
+            "project_name": "Mise Footwear",
+            "description": "Mise Footwear",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "e428c82e-08a4-49b6-9a6f-c9aa82b8dcc5": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Avoli_1b.png",
+            "project_name": "Avoli Footwear",
+            "description": "Avoli Footwear",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "fea3334a-0744-4499-bbe8-8259e289f95e": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/mise-digital",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Mise_Website_1.png",
+            "project_name": "Mise Digital",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "b728c65d-a9b2-4c2b-909f-38a56cabb4a8": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/novella-footwear",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Novella_Footwear2_1.png",
+            "project_name": "Novella Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "fc7b84de-3447-471f-88b8-1758d1006ecb": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/novella-website",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Novella_Website_1.png",
+            "project_name": "Novella Website",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "e63f5f0e-dde8-41db-bd55-eddbf9bd7609": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/pendleton-footwear",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Pendleton_Footwear1b_1.png",
+            "project_name": "Pendleton Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "a2b0f064-7b7c-44fc-8536-cadb8c89a4f7": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/spyder-footwear",
+            "image": "shopify:\/\/shop_images\/61BGjzqCLJL_1.png",
+            "project_name": "Spyder Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "70482fd8-4db5-458e-888b-d2ce9bf49d63": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/soill-footwear",
+            "image": "shopify:\/\/shop_images\/Traverse-Atlantic-Blue_1.png",
+            "project_name": "Soill Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "2ee7c7fb-2f3f-4eea-98a9-4b6ebe27ace2": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Asset_3_1.png",
+            "project_name": "*Secret Project*",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "f3e0cc48-d6a3-4da7-8440-11f3bc97facf": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/forsake-footwear",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Forsake_Footwear3_2.png",
+            "project_name": "Forsake Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "5fb7b31f-e1b7-40ff-8e7c-33014c0596cc": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/bogs-footwear",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Bogs_Footwear1_1.png",
+            "project_name": "Bogs Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "49b2321c-2fbb-4da7-b0bd-b2da995a0b3e": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/lane-eight-footwear",
+            "image": "shopify:\/\/shop_images\/LANEEIGHT-HIIT-TRAINER-DeepTeal-Right-min_1.png",
+            "project_name": "Lane Eight Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        },
+        "45ca861c-45ed-4234-ad2b-17ca0e33ef03": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/columbia-footwear",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Columbia_Footwear1b_1.png",
+            "project_name": "Columbia Footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black"
+          }
+        }
+      },
+      "block_order": [
+        "4fd2f7c5-55b3-4b42-9fb5-cc7e710a9e07",
+        "6472ba35-6197-4e56-8cd2-12890662b5fd",
+        "9ca71205-2f80-4640-8f37-00677d356dbe",
+        "6cddf49c-3aea-4a02-87bb-bc42a3ca5d1d",
+        "7225878a-8405-4f94-8439-c081a76dbb2b",
+        "e428c82e-08a4-49b6-9a6f-c9aa82b8dcc5",
+        "fea3334a-0744-4499-bbe8-8259e289f95e",
+        "b728c65d-a9b2-4c2b-909f-38a56cabb4a8",
+        "fc7b84de-3447-471f-88b8-1758d1006ecb",
+        "e63f5f0e-dde8-41db-bd55-eddbf9bd7609",
+        "a2b0f064-7b7c-44fc-8536-cadb8c89a4f7",
+        "70482fd8-4db5-458e-888b-d2ce9bf49d63",
+        "2ee7c7fb-2f3f-4eea-98a9-4b6ebe27ace2",
+        "f3e0cc48-d6a3-4da7-8440-11f3bc97facf",
+        "5fb7b31f-e1b7-40ff-8e7c-33014c0596cc",
+        "49b2321c-2fbb-4da7-b0bd-b2da995a0b3e",
+        "45ca861c-45ed-4234-ad2b-17ca0e33ef03"
+      ],
+      "settings": {
+        "title": "Slideshow"
+      }
+    },
+    "abbabbec-89e0-4d49-bad4-0c771910e5d8": {
+      "type": "home-skillsets",
+      "blocks": {
+        "09fb8816-644e-44d2-b46e-045d52a8d1d8": {
+          "type": "slide",
+          "settings": {
+            "skill_name": "Brand Building",
+            "description": "<p>We sculpt distinctive identities for both startups and established brands in the footwear, apparel, and product design sectors. Our approach ensures your brand shines with a compelling visual presence and a story that resonates deeply within your market, setting you apart as a leader and innovator.<\/p>"
+          }
+        },
+        "bb26cbc6-a847-4f2d-83de-a79a9ef58947": {
+          "type": "slide",
+          "settings": {
+            "skill_name": "Strategy",
+            "description": "<p>Strategizing with precision, we utilize research and trend analysis to position your brand and product at the forefront of the industry. Our approach ensures your message resonates strongly, ensuring relevance and impact in a competitive landscape.<\/p>"
+          }
+        },
+        "14ab27e3-b290-427b-a9b9-632823cf45bf": {
+          "type": "slide",
+          "settings": {
+            "skill_name": "Creative Direction",
+            "description": "<p>Crafting your brand and product line's visual narrative, we establish a distinct aesthetic that meticulously shapes the identity and appeal of your offerings, setting the stage for them to stand out in the marketplace. This approach ensures your brand and products not only attract attention but also foster lasting connections with your audience.<\/p>"
+          }
+        },
+        "ef81c9b4-5ef3-4025-93e6-780e152d9258": {
+          "type": "slide",
+          "settings": {
+            "skill_name": "Product Design",
+            "description": "<p>From initial concept to final technical drawing, our product design process is deeply collaborative. Working closely with clients, we ideate, sketch, render, and refine designs to align perfectly with the initial vision and brand identity. This hands-on approach ensures each product is innovative, functional, and a true reflection of the brand’s goals.<\/p>"
+          }
+        },
+        "slide_TzBX7Y": {
+          "type": "slide",
+          "settings": {
+            "skill_name": "Product Development",
+            "description": "<p>Bringing your vision to life, our product development process in the footwear, apparel, and accessories space prioritizes quality and market relevance. Collaborating with global partners, we navigate from concept to market with precision, ensuring your idea becomes a tangible, standout product.<\/p>"
+          }
+        },
+        "slide_zGqVDP": {
+          "type": "slide",
+          "settings": {
+            "skill_name": "Creative Marketing",
+            "description": "<p>By weaving your initial vision into every aspect of your brand's story including photo and video direction, web design and development, social media strategy, and beyond, we engage your audience at every interaction, keeping your message vibrant and alive.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "09fb8816-644e-44d2-b46e-045d52a8d1d8",
+        "bb26cbc6-a847-4f2d-83de-a79a9ef58947",
+        "14ab27e3-b290-427b-a9b9-632823cf45bf",
+        "ef81c9b4-5ef3-4025-93e6-780e152d9258",
+        "slide_TzBX7Y",
+        "slide_zGqVDP"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": ""
+      }
+    },
+    "a9783ed4-f445-4994-a00d-0ccce742a2d1": {
+      "type": "text-block",
+      "settings": {
+        "heading": "THE SKILLS TO MAKE IT HAPPEN",
+        "text": "<p>From passion projects to athletes and industry leaders, we create intentional impact by channeling the minds of your audience and transforming industry gaps into coveted features within your products. Our designs pioneer innovation. The new standard of kitchen shoes. A new era of reimagined baseball cleats. We did that. <\/p>",
+        "background_color": "#efefef"
+      }
+    },
+    "a00f8e4b-24f4-47c7-87e6-7836086a8d07": {
+      "type": "text-with-cta",
+      "settings": {
+        "heading": "If you could bring any idea to life, what would it be?",
+        "text": "",
+        "cta-text": "TELL US ABOUT IT",
+        "cta-url": "shopify:\/\/pages\/contact",
+        "background_color": "#121212"
+      }
+    },
+    "f68d2906-95d3-400d-b956-77d4dbc29acb": {
+      "type": "animated-banner",
+      "blocks": {
+        "31bd10a0-e422-44aa-b4d8-c27fe69e7da4": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "4725eafb-be74-4473-85ca-bb520f6bc3f1": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "a6790944-521a-41e9-8a08-2a3e9c72e658": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "bc2092ec-3e58-48c7-b220-ce1166448384": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "46e76740-2ede-4c17-8ef9-2d4ed8aa94b8": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "3d65a641-18f9-4e40-a3fe-a1ca8a792a1d": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "ffdafc8d-da5d-4b68-9175-43b72f5e83d7": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        },
+        "9e7d195e-02a9-482d-a7c8-9e1b0422c501": {
+          "type": "slide",
+          "settings": {
+            "text_name": "IDEAS IN MOTION"
+          }
+        }
+      },
+      "block_order": [
+        "31bd10a0-e422-44aa-b4d8-c27fe69e7da4",
+        "4725eafb-be74-4473-85ca-bb520f6bc3f1",
+        "a6790944-521a-41e9-8a08-2a3e9c72e658",
+        "bc2092ec-3e58-48c7-b220-ce1166448384",
+        "46e76740-2ede-4c17-8ef9-2d4ed8aa94b8",
+        "3d65a641-18f9-4e40-a3fe-a1ca8a792a1d",
+        "ffdafc8d-da5d-4b68-9175-43b72f5e83d7",
+        "9e7d195e-02a9-482d-a7c8-9e1b0422c501"
+      ],
+      "settings": {
+        "background_color": "#f94b4d",
+        "text_color": "white"
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "1271f2fd-2aad-4d38-ad99-39cb31c666ae",
+    "39ff757d-d501-44d4-b383-b3893efb06b5",
+    "1741709e-73d8-4a34-80d9-d46589f61842",
+    "abbabbec-89e0-4d49-bad4-0c771910e5d8",
+    "a9783ed4-f445-4994-a00d-0ccce742a2d1",
+    "a00f8e4b-24f4-47c7-87e6-7836086a8d07",
+    "f68d2906-95d3-400d-b956-77d4dbc29acb"
   ]
 }

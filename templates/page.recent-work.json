@@ -1,0 +1,276 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "80967c7a-7068-44d8-8cf1-b0fe0b2d605a": {
+      "type": "recent-work-projects",
+      "blocks": {
+        "0f4bc5be-5402-4008-8f66-9330c8144507": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-2022-footwear",
+            "image": "shopify:\/\/shop_images\/Shugo_2022_1.png",
+            "project_name": "shugo Zero",
+            "description": "Shugo Zero",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "slide_Hktc3w": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Shugo_Kai_Zen.png",
+            "project_name": "Shugo Kai & Zen",
+            "description": "Shugo Kai & Zen",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "slide_Fj4EQq": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Avoli_1b.png",
+            "project_name": "Avoli Footwear",
+            "description": "Avoli Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "7cc17c9a-48be-4954-b126-63a4d22a5070": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-apparel",
+            "image": "shopify:\/\/shop_images\/Shugo_Apparel_1.png",
+            "project_name": "shugo apparel",
+            "description": "Shugo Apparel",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "7f765ca7-dee6-41ea-9fbc-7c2fbe90cf6c": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/shugo-branding",
+            "image": "shopify:\/\/shop_images\/Shugo_Branding_1_6c3a9991-7eab-41cd-9d7d-eaae7291dbf2.png",
+            "project_name": "Shugo Branding",
+            "description": "Shugo Branding",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Social"
+          }
+        },
+        "1bd4dea2-b99f-4701-ac52-9f9c51e28382": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Shugo_Digital_3.png",
+            "project_name": "shugo website",
+            "description": "Shugo Website",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Social"
+          }
+        },
+        "9c90d9c4-d49a-4b29-836c-aec12646c6a5": {
+          "type": "slide",
+          "settings": {
+            "project_url": "shopify:\/\/pages\/mise-footwear",
+            "image": "shopify:\/\/shop_images\/Mise_Product_1.png",
+            "project_name": "Mise Footwear",
+            "description": "Mise Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "b6c79f12-3eb2-43df-ac9c-1942a44107a8": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Mise_Branding_3.png",
+            "project_name": "Mise Branding",
+            "description": "Mise Branding",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "91edad84-ff8a-4e2f-9bb9-4c6ba06021c2": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Mise_Website_1.png",
+            "project_name": "Mise Website",
+            "description": "Mise Website",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "192df0f0-be43-4be2-a460-ba5fb9d59901": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Novella_Footwear_1.png",
+            "project_name": "Novella Footwear",
+            "description": "Novella Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "9839c97b-4263-4b27-b8f9-3d5bd7c68156": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "shopify:\/\/pages\/novella-website",
+            "image": "shopify:\/\/shop_images\/SNWeb_CPI_Novella_Website_1.png",
+            "project_name": "novella website",
+            "description": "clothes",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Clothing"
+          }
+        },
+        "90a21a22-8eba-4886-a0b9-a0b4262ff1a7": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Pendleton_Footwear_2.png",
+            "project_name": "Pendleton footwear",
+            "description": "Pendleton Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "81d39142-a559-4933-8f16-50098cc3dc8f": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Spyder_1.png",
+            "project_name": "Spyder Footwear",
+            "description": "Spyder Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "f6ff57a4-3f98-4c97-86c4-5c60924e2fdf": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Columbia_1.png",
+            "project_name": "columbia footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "56d041d4-fffe-4c02-991f-5c54802e6616": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/SoiLL_Footwear_1.png",
+            "project_name": "Soill Footwear",
+            "description": "SoiLL Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "63a9bcb1-d7bc-4621-94ed-3916da1816ce": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Asset_3_1.png",
+            "project_name": "Lululemon Footwear",
+            "description": "Lululemon Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "f540f081-9c89-4215-bdb1-0754c606fb87": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Forsake_1.png",
+            "project_name": "forsake footwear",
+            "description": "Forsake Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "e67e5743-d417-4230-8517-8481af3edfc9": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Bogs_2.png",
+            "project_name": "Bogs footwear",
+            "description": "Bogs Footwear",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        },
+        "fa9a6142-46d1-4068-afa5-8101accfa8d0": {
+          "type": "slide",
+          "settings": {
+            "project_url": "",
+            "image": "shopify:\/\/shop_images\/Lane_Eight_1.png",
+            "project_name": "lane eight footwear",
+            "description": "",
+            "background_color": "#efefef",
+            "text_color": "black",
+            "project_tag": "Footwear"
+          }
+        }
+      },
+      "block_order": [
+        "0f4bc5be-5402-4008-8f66-9330c8144507",
+        "slide_Hktc3w",
+        "slide_Fj4EQq",
+        "7cc17c9a-48be-4954-b126-63a4d22a5070",
+        "7f765ca7-dee6-41ea-9fbc-7c2fbe90cf6c",
+        "1bd4dea2-b99f-4701-ac52-9f9c51e28382",
+        "9c90d9c4-d49a-4b29-836c-aec12646c6a5",
+        "b6c79f12-3eb2-43df-ac9c-1942a44107a8",
+        "91edad84-ff8a-4e2f-9bb9-4c6ba06021c2",
+        "192df0f0-be43-4be2-a460-ba5fb9d59901",
+        "9839c97b-4263-4b27-b8f9-3d5bd7c68156",
+        "90a21a22-8eba-4886-a0b9-a0b4262ff1a7",
+        "81d39142-a559-4933-8f16-50098cc3dc8f",
+        "f6ff57a4-3f98-4c97-86c4-5c60924e2fdf",
+        "56d041d4-fffe-4c02-991f-5c54802e6616",
+        "63a9bcb1-d7bc-4621-94ed-3916da1816ce",
+        "f540f081-9c89-4215-bdb1-0754c606fb87",
+        "e67e5743-d417-4230-8517-8481af3edfc9",
+        "fa9a6142-46d1-4068-afa5-8101accfa8d0"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "80967c7a-7068-44d8-8cf1-b0fe0b2d605a"
+  ]
+}

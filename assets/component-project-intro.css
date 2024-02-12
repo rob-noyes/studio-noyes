@@ -1,5 +1,5 @@
 .project-intro-container {
-    padding:  40px 5% 40%;
+    padding:  40px 5% 10%;
 }
 
 .back-button-container .back-button {
@@ -7,7 +7,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
-    line-height: 113.5%;
+    line-height: 130%;
     letter-spacing: 0.05em;
     color: #EFEFEF;
     border: none;
@@ -23,7 +23,7 @@
     max-width: 250px;
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .project-title-image-container img {
@@ -45,11 +45,12 @@
     font-family: 'FF DIN Pro';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 113.5%;
+    font-size: 32px;
+    line-height: 130%;
     letter-spacing: 0.05em;
     color: #000000;
     text-transform: uppercase;
+    padding-bottom: 10px
 }
 
 .intro-copy-container .intro-copy {
@@ -57,15 +58,30 @@
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 113.5%;
+    line-height: 130%;
     letter-spacing: 0.05em;
     color: #000000;
+}
+
+.intro-copy-container .intro-copy h2 {
+    font-family: 'FF DIN Pro';
+    font-size: 24px;
+    line-height: 130%;
+    padding-bottom: 10px
+}
+
+.intro-copy-container .intro-copy p {
+    font-family: 'FF DIN Pro';
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 130%;
+    padding-bottom: 10px
 }
 
 .intro-service-list {
     margin-left: 90px;
     width: 40%;
-    margin-top: 42px;
+    margin-top: 48px;
     max-width: 400px;
 }
 
@@ -75,6 +91,7 @@
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 0.05em;
+    line-height: 130%;
     list-style-type: none;
 }
 

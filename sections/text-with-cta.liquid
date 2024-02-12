@@ -1,6 +1,6 @@
 {{ 'component-text-with-cta.css' | asset_url | stylesheet_tag }}
 
-<div class="storytelling-cta-container">
+<div class="storytelling-cta-container" style="background:{{section.settings.background_color}}">
     <div>
         <h2 class="storytelling-title">{{section.settings.heading}}</h2>
         <div class="storytelling-text">{{section.settings.text}}</div>
@@ -38,6 +38,11 @@
       "id": "cta-url",
       "type": "url",
       "label": "CTA url"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
     }
   ],
   "presets": [
